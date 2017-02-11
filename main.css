@@ -20,3 +20,7 @@ input[type=button]{
  	width: 70px;
  	height: 40px;
  }
+
+ input[name="Result"]{
+ 	color: green;
+ }
