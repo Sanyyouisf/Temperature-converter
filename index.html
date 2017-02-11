@@ -6,23 +6,32 @@
 </head>
 <body>
 
-	
+
 	<h1> Temperature converter <h1>
 
 	<label for="Temp"> <h6>Enter the Temp here</h6> </label>
-	<input type="text" name="Temp" size="7" ><br>
+	<input type="text" id="Temp" name="Temp" size="7"  placeholder="Enter Temperature" ><br>
 
-	<label for="C to F"> <h6>C to F</h6></label>
-	<input type="Radio" id="C to F " name ="TempCovert">
+	<label for="C to F"> <h6> F </h6></label>
+	<input type="Radio"  id="C to F" name="Radio">
+	<!-- <input type="Radio"  id="C to F" onclick="toFahrenheit()" name="Radio"> -->
 
-	<label for="F to C"> <h6>F to C</h6> </label>
-	<input type="Radio" id="F to C " name="TempCovert"><br>
+	<label for="F to C"> <h6> C </h6> </label>
+	<input type="Radio"  id="F to C" name="Radio"><br>
+	<!-- <input type="Radio"  id="F to C" onclick="toCelsius()" name="Radio"><br> -->
 
-	<label for="convert"></label>
-	<input type="button" name="convert" value ="convert">
+	<label for="Converter"></label>
+	<input type="button"  id="Converter" value ="Converter">
+	<!-- <input type="button" onclick="determineConverter()" id="Converter" value ="convert"> -->
 
 	<label for="reset"></label>
-	<input type="button" name="reset" value ="reset">
+	<input type="button" name="reset" value="Reset" id="reset">
+	<!-- <input type="button" name="reset" onclick="reset()" value="Reset"> -->
+
+	<div id="converted">
+		<label for = "Result"><h6>Result</h6></label>
+		<input type="text"   name="Result" id="Result" readonly="readonly">
+	</div>
 
 	<script type="text/javascript" src="converter.js"></script>
 </body>
