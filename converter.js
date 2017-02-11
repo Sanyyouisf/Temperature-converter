@@ -84,3 +84,6 @@ document.getElementById("reset").addEventListener("click", function(){
 
 	}
 document.getElementById("Converter").addEventListener("click", determineConverter);
+
+// Note that last line we cannot call the determineConverter(E);
+// as if we do that it will execute the tha pag load .
