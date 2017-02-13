@@ -52,6 +52,8 @@ document.getElementById("reset").addEventListener("click", function(){
 
 
 // function to determine which conversion should  when the converter button is checked
+// whith a different waty than the instructions say
+
 // document.getElementById("Converter").addEventListener("click", function(){
 //     if ( document.getElementById("C to F").checked === true){
 //     	toFahrenheit();
