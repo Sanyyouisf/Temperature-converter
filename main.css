@@ -1,0 +1,26 @@
+ body {
+ 	line-height: .5em;
+ }
+
+
+
+ h6 {
+ 	display: inline-block;
+ 	font-size: 20px;
+ }
+
+ input[type=text]{
+ 	border: 3px solid black;
+ 	width: 100px;
+ 	height: 30px;
+ }
+
+input[type=button]{
+ 	border: 3px solid black;
+ 	width: 70px;
+ 	height: 40px;
+ }
+
+ input[name="Result"]{
+ 	color: green;
+ }

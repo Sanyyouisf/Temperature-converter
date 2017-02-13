@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title> Temperature converter</title>
+	<link rel="stylesheet" type="text/css" href="main.css">
+</head>
+<body>
+
+
+	<h1> Temperature converter <h1>
+
+	<label for="Temp"> <h6>Enter the Temp here</h6> </label>
+	<input type="text" id="Temp" name="Temp" size="7"  placeholder="Enter Temperature" ><br>
+
+	<label for="C to F"> <h6> F </h6></label>
+	<input type="Radio"  id="C to F" name="Radio">
+
+	<label for="F to C"> <h6> C </h6> </label>
+	<input type="Radio"  id="F to C" name="Radio"><br>
+	
+	<label for="Converter"></label>
+	<input type="button"  id="Converter" value ="Converter">
+
+	<label for="reset"></label>
+	<input type="button" name="reset" value="Reset" id="reset">
+
+	<div id="converted">
+		<label for = "Result"><h6>Result</h6></label>
+		<input type="text"   name="Result" id="Result" readonly="readonly">
+	</div>
+
+	<script type="text/javascript" src="converter.js"></script>
+</body>
+</html>
